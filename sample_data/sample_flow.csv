@@ -1,0 +1,5 @@
+duration,protocol_type,src_port,dst_port,flow_bytes,syn_count,ack_count,label
+0.035,tcp,34567,80,1500,1,1,Benign
+0.120,tcp,43521,22,200,3,1,SSH-BruteForce
+0.010,udp,12345,53,120,0,0,Benign
+0.500,tcp,40000,443,5000,2,4,DDOS
